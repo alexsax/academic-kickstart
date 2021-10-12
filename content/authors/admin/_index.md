@@ -41,13 +41,13 @@ interests:
 education:
   courses:
   - course: "PhD in EECS"
-    institution: UC Berkeley (GPA 3.9) 
+    institution: UC Berkeley 
     year: 2022
   - course: "MSc in CS"
-    institution: "Stanford University (GPA 4.0+)"
+    institution: "Stanford University"
     year: 2018
   - course: "BSc in Math"
-    institution: "Stanford University (GPA 3.7)"
+    institution: "Stanford University"
     year: 2018
 
 # Social/Academic Networking
@@ -83,6 +83,10 @@ user_groups:
 - Visitors
 ---
 
-I am a third-year Ph.D. student at UC Berkeley, where I am jointly advised by [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/) and [Amir Zamir](https://cs.stanford.edu/~amirz/) (at EPFL). Before coming to Berkeley, I was at Stanford, where I received my M.Sc. in Computer Science, advised by [Silvio Savarese](http://cvgl.stanford.edu/silvio/). I received my B.Sc. in Math, also from Stanford.
 
-My research interests are in building general and flexible autonomous systems. These systems should be able to learn new things with minimal amounts of extra data (for example, by leveraging prior world knowledge). They should also be able to learn continuously over their entire lifetime. I think that modeling the space of visual tasks is a great way to use previously learned information for new tasks.
+My research interests are in developing simple models of visual perception. I ultimately want to understand how these systems are shaped by their ecological function. My current research angle is to try to model the relationships between different visual tasks in order to understand some of the general principles. My work so far has been modeling relationships between different computer vision tasks, and then linking those vision tasks to more ecologically realistic tasks in robotics.
+
+I'm currently at UC Berkeley, where I am a PhD student advised by [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/). I'm also advised by [Amir Zamir](https://cs.stanford.edu/~amirz/) (@ EPFL). Before coming to Berkeley, I was at Stanford for a M.Sc. (in Computer Science advised by [Silvio Savarese](http://cvgl.stanford.edu/silvio/) and [Amir Zamir](https://cs.stanford.edu/~amirz/) and B.Sc. (in Math), also from Stanford.
+
+<!-- 
+My research interests are in building general and flexible autonomous systems. These systems should be able to learn new things with minimal amounts of extra data (for example, by leveraging prior world knowledge). They should also be able to learn continuously over their entire lifetime. I think that modeling the space of visual tasks is a great way to use previously learned information for new tasks. -->

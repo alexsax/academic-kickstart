@@ -6,7 +6,7 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 10  # Order that this section will appear.
 
 title = "Selected Projects"
 subtitle = ""
@@ -51,7 +51,19 @@ subtitle = ""
 +++
 
 <div class='col-lg-12'>
-
+  <div class='row'>
+    <div class='col-lg-2'></div>
+    <div class='col-lg-8 card'>
+      <a href="//omnidata.vision" class="custom-card">
+        <div class='mr-auto project-video'>
+          <video playsinline autoplay center loop muted width="100%" height="" class="video-bg" id="video-bg" poster="https://gph.is/1Qb3vhn">
+            <source src="projects/omnidata.mp4" type="video/mp4" alt="HTML5 background video">
+          </video> 
+        </div>
+      </a>
+      <a class='mt-auto project-name' href='//omnidata.vision'>Steerable Datasets (Omnidata)</a>
+    </div>
+  </div>
   <div class='row'>
     <div class='col-lg-2'></div>
     <div class='col-lg-8 card'>
