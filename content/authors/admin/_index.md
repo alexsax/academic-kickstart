@@ -1,41 +1,54 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Alexander Sax 
+
+fulltitle: Alexander (Sasha) Sax 
 
 # Username (this should match the folder name)
 authors:
 - admin
 
+profile-link:
+- https://alexsax.github.io
+
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: PhD Student, Computer Science
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: UC Berkeley
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
+honors:
+- "**CVPR 2020 Best Paper Award Nomination** *for [X-Task Consistency](https://consistency.epfl.ch)*."
+- "**CVPR 2018 Best Paper Award** *for [Taskonomy](http://taskonomy.stanford.edu)*."
+- "**NVIDIA Pioneering Research Award 2018** *for [Gibson Environment](http://gibsonenv.stanford.edu)*."
+- "**Stanford University Distinction in Research 2018** for _Computational Evidence for Structure in the Space of Tasks_."
+- "**Winner of CVPR19 Habitat Embodied Agents Challenge**: *<div>[Mid-Level Representations](//perceptual.actor).</div>*"
+- "**Outstanding Reviewer**: *[CVPR 2020](https://conferences.computer.org/cvpr/pdfs/CVPR2020-1XMljIyuXWg2zC9bnL19Tw/716800z216/716800z216.pdf)*."
+
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- "Generalizable Models"
+- "Machine Learning"
+- "Computer Vision"
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: "PhD in EECS"
+    institution: UC Berkeley (GPA 3.9) 
+    year: 2022
+  - course: "MSc in CS"
+    institution: "Stanford University (GPA 4.0+)"
+    year: 2018
+  - course: "BSc in Math"
+    institution: "Stanford University (GPA 3.7)"
+    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -44,16 +57,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:sax AT berkeley.edu' 
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/iamsashasax
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: //scholar.google.com/citations?user=PIq7jcUAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: //github.com/alexsax
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -70,6 +83,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a third-year Ph.D. student at UC Berkeley, where I am jointly advised by [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/) and [Amir Zamir](https://cs.stanford.edu/~amirz/) (at EPFL). Before coming to Berkeley, I was at Stanford, where I received my M.Sc. in Computer Science, advised by [Silvio Savarese](http://cvgl.stanford.edu/silvio/). I received my B.Sc. in Math, also from Stanford.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research interests are in building general and flexible autonomous systems. These systems should be able to learn new things with minimal amounts of extra data (for example, by leveraging prior world knowledge). They should also be able to learn continuously over their entire lifetime. I think that modeling the space of visual tasks is a great way to use previously learned information for new tasks.
